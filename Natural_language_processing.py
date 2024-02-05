@@ -23,7 +23,7 @@ nltk.download('omw-1.4') # Downwloding the omw
 # User Inputs
 # =============================================================================
 # Importing the dataset
-os.chdir(R'C:\G_Ivy\01_Python\Natural Language Processing')
+os.chdir(R'F:\data_science\nlp\Restaurant_Reviews.tsv')
 os.getcwd()
 dataset = pd.read_csv('Restaurant_Reviews.tsv', delimiter = '\t', quoting = 3)
 dataset.shape
